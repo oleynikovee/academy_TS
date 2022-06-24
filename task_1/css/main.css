@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: hsla(143, 47%, 54%, 0.842);
+}
+
+header{
+    text-align: center;
+    color:#ca7361;
+}
+
+main{
+    text-align: center;
+}
+
+.ts_name{
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+    font-size:2em;
+    transform: skewY(-4deg);
+    color:#564a5f;
+    text-shadow:
+    #bfbaff 0.1em 0.1em,
+    #cfa7c5 0.2em 0.2em;
+}
+
+.ts{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:0.5em;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+
+.ts div{
+    font-size: 1.5em;
+    text-align: center;
+}
